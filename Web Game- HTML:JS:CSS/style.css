@@ -1,0 +1,22 @@
+body{
+  background: green;
+  background-position: center;
+}
+
+.canvasEntities{
+  display: block;
+  background-position: center;
+
+}
+
+
+#canvasBg{
+  background:#ffff22;
+  background-position: center;
+  border-style: ridge;
+}
+
+#overlapping canvas{
+  margin: -600px 0 0;
+  background-position-y: center;
+}
