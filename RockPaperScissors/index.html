@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="style.css"  />
+  <link rel="stylesheet/scss" type="text/css" href="header.scss">
+  <link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Concert+One|Permanent+Marker" rel="stylesheet">
+  <title>Rock Paper Scissors Game</title>
+</head>
+<body>
+    <header id="text">
+      <h1 href="#" class="effect-shine">R . P . S Showdown!!</h1>
+
+     </header>
+
+     <div class="score-board">
+       <div id="user" class="badge">YOU</div>
+       <div id="CP" class="badge">Das Machine!</div>
+       <span id="user-score">0</span> : <span id="cp-score">0</span>
+     </div>
+
+     <div class="outcome">
+          <p>  </p>
+
+
+     </div>
+
+
+     <div class="choices">
+       <div class="choice" id="R">
+        <img src="rock.png" alt="" />
+     </div>
+
+     <div class="choice" id="P">
+      <img src="paper.png" alt="" />
+    </div>
+
+   <div class="choice" id="S">
+    <img src="scissors.png" alt="" />
+   </div>
+   </div>
+
+   <p id="prompt">Make your move!! ; </p>
+   <p id="prompt">Paper covers Rock!</p>
+   <p id="prompt">Rock smashes Scissors!</p>
+   <p id="prompt">Scissors cuts Paper!</p>
+<div id="text"></div>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.16.1/TweenMax.min.js"></script>
+<script src="jquery.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
